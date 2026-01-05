@@ -43,20 +43,18 @@ This project was developed as an individual final assignment for a Python & SQL 
 ---
 
 ## Project Structure
+
+```text
 financial-risk-project/
-│
 ├── app/
-│   └── app.py                # Streamlit dashboard
-│
+│   └── app.py                 # Streamlit dashboard
 ├── src/
 │   ├── 01_generate_data.py
 │   ├── 02_clean_and_engineer.py
 │   ├── 03_sql_load_and_queries.py
 │   └── 04_visualizations.py
-│
 ├── reports/
-│   └── figures/              # Generated plots
-│
+│   └── figures/               # Generated plots
 ├── requirements.txt
 └── README.md
 
